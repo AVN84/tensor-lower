@@ -1,7 +1,7 @@
 # tensor-lower
 
-A small compiler that takes tensor expressions in index notation and lowers
-them to the quantized kernels in
+A C++20 compiler front end for tensor expressions in index notation. Parsing
+and validation are implemented; lowering is planned to target the kernels in
 [quantized-inference-kernels](https://github.com/AVN84/quantized-inference-kernels).
 
 ```
